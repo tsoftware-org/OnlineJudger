@@ -1,0 +1,42 @@
+﻿Build started 2014/11/6 15:47:17.
+     1>Project "G:\Codes\cpp\mainjudger\mainjudger\mainjudger.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\mainjudger.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CComplier.cpp CDBOpera.cpp CJobMgr.cpp CJudger.cpp CMatcher.cpp CRunner.cpp CWorker.cpp mainjudger.cpp
+         mainjudger.cpp
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C2143: syntax error : missing ';' before '*'
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(19): error C2061: syntax error : identifier 'CDBOpera'
+         CWorker.cpp
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C2143: syntax error : missing ';' before '*'
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(19): error C2061: syntax error : identifier 'CDBOpera'
+     1>g:\codes\cpp\mainjudger\mainjudger\cworker.cpp(9): error C2661: 'CMatcher::CMatcher' : no overloaded function takes 2 arguments
+     1>g:\codes\cpp\mainjudger\mainjudger\cworker.cpp(26): error C2039: 'FetchInputStr' : is not a member of 'CMatcher'
+                 g:\codes\cpp\mainjudger\mainjudger\matcher.h(6) : see declaration of 'CMatcher'
+         CRunner.cpp
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C2143: syntax error : missing ';' before '*'
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(19): error C2061: syntax error : identifier 'CDBOpera'
+         CMatcher.cpp
+         CJudger.cpp
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C2143: syntax error : missing ';' before '*'
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(19): error C2061: syntax error : identifier 'CDBOpera'
+         CJobMgr.cpp
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C2143: syntax error : missing ';' before '*'
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(19): error C2061: syntax error : identifier 'CDBOpera'
+         CDBOpera.cpp
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C2143: syntax error : missing ';' before '*'
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(19): error C2061: syntax error : identifier 'CDBOpera'
+         CComplier.cpp
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C2143: syntax error : missing ';' before '*'
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>g:\codes\cpp\mainjudger\mainjudger\matcher.h(19): error C2061: syntax error : identifier 'CDBOpera'
+         Generating Code...
+     1>Done Building Project "G:\Codes\cpp\mainjudger\mainjudger\mainjudger.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.19
